@@ -2,9 +2,9 @@
 const listaStation = (station,update)=>{
     const listado = $('<section class="listado"></section>');
     const grifos=$('<div class="grifos"></div>');
-    const nombre=$('<span class="nombre">' +station.name+ '</span>');
-    const direccion=$('<span class="direccion">' +station.address+ '</span>');
-    const buton=$('<a href="#" class="boton">mapa</a>');
+    const nombre=$('<h1 class="nombre">' +station.name+ '</h1>');
+    const direccion=$('<p class="direccion">' +station.address+ '</p>');
+    const buton=$('<a href="#" class="fa fa-map"></a>');
 
     grifos.prepend(nombre);
     grifos.append(direccion);

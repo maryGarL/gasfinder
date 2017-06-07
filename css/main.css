@@ -17,3 +17,16 @@ header {
 header .fa-chevron-left {
   margin-right: 16px;
 }
+.container{
+  position: relative;
+  bottom: 22px;
+}
+.fa-map{
+  color: grey;
+  float:  right;
+  bottom: 31px;
+  position: relative;
+}
+.grifos{
+  border-top: solid 1px grey
+}
