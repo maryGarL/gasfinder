@@ -6,7 +6,7 @@ const render = (root) => {
   const div = $('<div class="div"></div>');
   wrapper.append(Header(_ => render(root)));
   wrapper.append(Search(_ => render(root)));
-  div.append(listaStation(_ => render(root)));
+
   root.append(wrapper);
   root.append(div);
 }
